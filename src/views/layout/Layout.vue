@@ -1,10 +1,12 @@
 <template>
-  <div class="app-page">
+  <div class="layout-page">
     <router-view />
     <div class="bottom-tab-bar">
-      <van-tabbar
+      121212
+      <!-- <van-tabbar
         v-model="activeTab"
         @change="changeTab"
+        :fixed="false"
       >
         <van-tabbar-item
           name="home"
@@ -22,7 +24,7 @@
           name="mine"
           icon="setting-o"
         >我的</van-tabbar-item>
-      </van-tabbar>
+      </van-tabbar> -->
     </div>
   </div>
 </template>
